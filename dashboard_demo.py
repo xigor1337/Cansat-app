@@ -15,6 +15,7 @@ def update_dashboard():
     plik = open("dane.txt", "a", encoding="UTF-8")
     global x_data, temperature_data, pressure_data, pm1_data, pm25_data, pm10_data, voc_data, co2_data, battery_data, time_since_fall_data
 
+    # wprowadzanie dancyh
     x_data.append(len(x_data) + 1)
     temperature_data.append(r.randint(20, 40))
     pressure_data.append(r.randint(25, 126))
